@@ -1,13 +1,14 @@
-import React from 'react';
-import './styles/PaginaInicio.css';
-import Switch from './switch';
+import React from 'react'
+import './styles/PaginaInicio.css'
+import Switch from './switch'
+import logo from '../images/logoSS.png'
 
-function PaginaInicio() {
-    return (
+function PaginaInicio () {
+  return (
         <>
             <section className="forms-section">
                 <h1 className="section-title">Purina Ecuador</h1>
-                <img src="https://acortar.link/DRIFA9" alt="Logotipo Purina"></img>
+                <img src={logo} alt="Logotipo Purina" />
                 <div className="forms">
                     <div className="form-wrapper is-active">
                         <button type="button" className="switcher switcher-login">
@@ -20,10 +21,12 @@ function PaginaInicio() {
                                 <div className="input-block">
                                     <label htmlFor="login-email">Email</label>
                                     <input id="login-email" type="email" required />
+                                    <hr></hr>
                                 </div>
                                 <div className="input-block">
                                     <label htmlFor="login-password">Contraseña</label>
                                     <input id="login-password" type="password" required />
+                                    <hr></hr>
                                 </div>
                             </fieldset>
                             <button type="submit" className="btn-login">Iniciar de Sesión</button>
@@ -51,10 +54,10 @@ function PaginaInicio() {
                     </div>
                 </div>
             </section>
-            <Switch /> 
+            <Switch />
 
         </>
-    );
+  )
 }
 
-export default PaginaInicio;
+export default PaginaInicio

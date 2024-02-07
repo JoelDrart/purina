@@ -16,8 +16,8 @@ img{
   width: 200px; /* Ancho deseado */
   height: 200px; /* Alto deseado */
   position: absolute; /* Permite posicionar la imagen en relación a su contenedor */
-  top: 0; /* Posiciona la imagen en la parte superior */
-  left: 0;
+  top: 20px; /* Posiciona la imagen en la parte superior */
+  left: 20px;
 }
 
 .forms-section {
@@ -28,7 +28,7 @@ img{
 }
 
 .section-title {
-  font-size: 32px;
+  font-size: 3.5em;
   letter-spacing: 1px;
   color: #fff;
 }
@@ -149,6 +149,7 @@ img{
   0% {
     background: #3f4041;
     transform: translate(40%, 10px);
+    backdrop-filter: blur(5px);
   }
   50% {
     transform: translate(0, 0);
@@ -156,6 +157,7 @@ img{
   100% {
     background-color: #4b495f7e;
     transform: translate(35%, -20px);
+    backdrop-filter: blur(5px);
   }
 }
 
@@ -185,6 +187,7 @@ img{
   0% {
     background: #767879;
     transform: translate(-40%, 10px) scaleY(.8);
+    backdrop-filter: blur(5px);
   }
   50% {
     transform: translate(0, 0) scaleY(.8);
@@ -192,6 +195,7 @@ img{
   100% {
     background-color: #4b495f7e;
     transform: translate(-35%, -20px) scaleY(1);
+    backdrop-filter: blur(5px);
   }
 }
 
@@ -257,10 +261,12 @@ img{
   padding-left: 15px;
   font-size: 16px;
   line-height: 40px;
-  color: #3b4465;
-  background: #eef9fe10;
-  border: 1px solid #feffff;
-  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  background: transparent;
+  /* border-bottom: 1px solid #a1b4b4; */
+  outline: none;
+  /* border-radius: 10px; */
 }
 
 .form [type='submit'] {
@@ -283,13 +289,13 @@ img{
 
 .btn-login {
   color: #fbfdff;
-  background: #1f1e58;
+  background: #6C372D;
   transform: translateX(-30%);
 }
 
 .btn-signup {
   color: #fff;
-  background: #1f1e58;
-  box-shadow: inset 0 0 0 2px #1f1e58;
+  background: #6B818E;
+  /* box-shadow: inset 0 0 0 2px #1f1e58; */
   transform: translateX(30%);
 }

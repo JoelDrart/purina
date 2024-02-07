@@ -1,5 +1,5 @@
-//Aqui debes trabajar para exportar toda la página
-//Aqui puedes importar otros componentes que hagas
+// Aqui debes trabajar para exportar toda la página
+// Aqui puedes importar otros componentes que hagas
 import "./App.css";
 import "./components/BotonEjemplo";
 // import BotonEjemplo from "./components/BotonEjemplo";
