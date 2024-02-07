@@ -1,3 +1,6 @@
+//Aqui debes trabajar para exportar toda la página
+//Aqui puedes importar otros componentes que hagas
+
 import logo from './logo.svg';
 import './App.css';
 
