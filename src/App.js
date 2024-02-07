@@ -1,26 +1,14 @@
 //Aqui debes trabajar para exportar toda la página
 //Aqui puedes importar otros componentes que hagas
-import './App.css';
+import "./App.css";
+import "./components/BotonEjemplo";
+// import BotonEjemplo from "./components/BotonEjemplo";
+import PaginaInicio from "./components/PaginaInicio";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div>
+    <PaginaInicio />
+  </div>;
 }
 
 export default App;
