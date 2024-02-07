@@ -1,0 +1,42 @@
+.btn-11 {
+    position: relative;
+    background-color: #ffffff; /* Cambia el color de fondo según sea necesario */
+    color: #000000; /* Cambia el color del texto según sea necesario */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    border-radius: 5px; /* Ajusta el radio de borde según sea necesario */
+  }
+  
+  .btn-11:before,
+  .btn-11:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px; /* Ajusta el tamaño del círculo según sea necesario */
+    height: 20px; /* Ajusta el tamaño del círculo según sea necesario */
+    background-color: #ffffff; /* Cambia el color del círculo según sea necesario */
+    border-radius: 50%; /* Hace que el círculo sea redondo */
+  }
+  
+  .btn-11:before {
+    left: -20px; /* Ajusta la posición del círculo izquierdo */
+  }
+  
+  .btn-11:after {
+    right: -20px; /* Ajusta la posición del círculo derecho */
+  }
+  
+  .btn-11:hover {
+    color: #ffffff; /* Cambia el color del texto al pasar el mouse */
+    background-color: #000000; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+  .btn-11:hover:before,
+  .btn-11:hover:after {
+    width: 30px; /* Ajusta el tamaño del círculo al pasar el mouse */
+    height: 30px; /* Ajusta el tamaño del círculo al pasar el mouse */
+  }
+  
+  

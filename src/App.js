@@ -14,7 +14,6 @@ function App() {
       <NavBar />
       <Routes>
         {/* dentro del 'element' pones el componente para que se renderice, talcual como está abajo en el login */}
-        <Route path="/" element={<h1>RATAAA INICIO</h1>} /> 
 
         <Route path="/login" element={<PaginaInicio />} />
       </Routes>

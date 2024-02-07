@@ -1,45 +1,63 @@
-/* Ponte pilas aqui arregla esos estilos feos porfa xd */
+.nav {
+  background-color: #33333367; /* Color de fondo inicial del navbar */
+  color: #fff; /* Color de las letras */
+  padding: 10px 50px; /* Espaciado interno del navbar con margen adicional en los bordes finales */
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: fixed; /* Hace que el navbar sea fijo */
+  top: 0; /* Se queda fijo en la parte superior */
+  width: 100%; /* Ocupa todo el ancho */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
 
-/* Reset default styles */
-body, ul, li {
+.nav.fixed {
+  background-color: #333; /* Cambia el color del navbar cuando está fijo */
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between; /* Ajusta el espacio entre los elementos */
+  align-items: center;
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+}
+
+.nav .logo a {
+  color: #fff; /* Color del texto del logo */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  font-weight: bold; /* Peso de la fuente */
+  font-size: 24px; /* Tamaño de las letras del logo */
+}
+
+.nav .navlinks {
+  list-style-type: none; /* Quita los estilos de la lista */
   margin: 0;
   padding: 0;
-  list-style: none;
-}
-
-/* NavBar container */
-.navbar {
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
-/* NavBar logo */
-.navbar .logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-
-/* NavBar menu */
-.navbar .menu {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-/* NavBar menu items */
-.navbar .menu li {
-  margin-right: 10px;
+.nav .navlinks li {
+  margin-left: 80px; /* Espaciado entre los elementos de la lista */
 }
 
-/* NavBar menu links */
-.navbar .menu li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+.nav .navlinks li:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
 }
 
-/* NavBar active link */
-.navbar .menu li.active a {
-  color: #ff0000;
+.nav .navlinks li a {
+  color: #fff; /* Color del texto del enlace */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  position: relative; /* Posición relativa para los enlaces */
+  font-size: 18px; /* Tamaño de las letras de los enlaces */
 }
+
+.nav .navlinks li a:hover::after {
+  content: ''; /* Añade contenido generado después del enlace */
+  position: absolute; /* Posición absoluta en relación al enlace */
+  left: 0; /* Ubicación de la línea en el enlace */
+  bottom: -3px; /* Ubicación de la línea en relación al enlace */
+  width: 100%; /* Ancho de la línea */
+  height: 2px; /* Altura de la línea */
+  background-color: #fff; /* Color de la línea */
+}
+
