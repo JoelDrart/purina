@@ -6,16 +6,15 @@ import PaginaInicio from "./components/PaginaInicio";
 import NavBar from "./components/NavBar";
 
 import { Route, Routes } from "react-router-dom";
+import BotonInicioo from "./components/BotonInicio";
 
 function App() {
   return (
     <div>
-      {/* Esta navbar se mantiene en todas las páginas */}
       <NavBar />
       <Routes>
-        {/* dentro del 'element' pones el componente para que se renderice, talcual como está abajo en el login */}
 
-        <Route path="/login" element={<PaginaInicio />} />
+      <Route path="/login" element={<PaginaInicio />} />
       </Routes>
     </div>
   );
