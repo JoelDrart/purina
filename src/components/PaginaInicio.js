@@ -43,10 +43,12 @@ function PaginaInicio () {
                                 <div className="input-block">
                                     <label htmlFor="signup-email">Email</label>
                                     <input id="signup-email" type="email" required />
+                                    <hr></hr>
                                 </div>
                                 <div className="input-block">
                                     <label htmlFor="signup-password">Contraseña</label>
                                     <input id="signup-password" type="password" required />
+                                    <hr></hr>
                                 </div>
                             </fieldset>
                             <button type="submit" className="btn-signup">Registrar</button>
