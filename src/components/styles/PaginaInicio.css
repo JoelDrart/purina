@@ -147,28 +147,28 @@ img{
 
 @keyframes showLogin {
   0% {
-    background: #d7e7f1;
+    background: #3f4041;
     transform: translate(40%, 10px);
   }
   50% {
     transform: translate(0, 0);
   }
   100% {
-    background-color: #fff;
+    background-color: #4b495f7e;
     transform: translate(35%, -20px);
   }
 }
 
 @keyframes hideLogin {
   0% {
-    background-color: #fff;
+    background-color: #353333;
     transform: translate(35%, -20px);
   }
   50% {
     transform: translate(0, 0);
   }
   100% {
-    background: #d7e7f1;
+    background: #44444410;
     transform: translate(40%, 10px);
   }
 }
@@ -183,28 +183,28 @@ img{
 
 @keyframes showSignup {
   0% {
-    background: #d7e7f1;
+    background: #767879;
     transform: translate(-40%, 10px) scaleY(.8);
   }
   50% {
     transform: translate(0, 0) scaleY(.8);
   }
   100% {
-    background-color: #fff;
+    background-color: #4b495f7e;
     transform: translate(-35%, -20px) scaleY(1);
   }
 }
 
 @keyframes hideSignup {
   0% {
-    background-color: #fff;
+    background-color: #646161;
     transform: translate(-35%, -20px) scaleY(1);
   }
   50% {
     transform: translate(0, 0) scaleY(.8);
   }
   100% {
-    background: #d7e7f1;
+    background: #6262647e;
     transform: translate(-40%, 10px) scaleY(.8);
   }
 }
@@ -258,8 +258,8 @@ img{
   font-size: 16px;
   line-height: 40px;
   color: #3b4465;
-  background: #eef9fe;
-  border: 1px solid #cddbef;
+  background: #eef9fe10;
+  border: 1px solid #feffff;
   border-radius: 10px;
 }
 
