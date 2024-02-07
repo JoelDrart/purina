@@ -15,7 +15,7 @@ body {
 img{
   width: 200px; /* Ancho deseado */
   height: 200px; /* Alto deseado */
-  position: absolute; /* Permite posicionar la imagen en relación a su contenedor */
+  position: relative; /* Permite posicionar la imagen en relación a su contenedor */
   top: 20px; /* Posiciona la imagen en la parte superior */
   left: 20px;
 }

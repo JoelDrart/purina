@@ -1,0 +1,45 @@
+/* Ponte pilas aqui arregla esos estilos feos porfa xd */
+
+/* Reset default styles */
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* NavBar container */
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* NavBar logo */
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* NavBar menu */
+.navbar .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NavBar menu items */
+.navbar .menu li {
+  margin-right: 10px;
+}
+
+/* NavBar menu links */
+.navbar .menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* NavBar active link */
+.navbar .menu li.active a {
+  color: #ff0000;
+}
