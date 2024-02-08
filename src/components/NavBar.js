@@ -2,7 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './/styles/NavBar.css';
 import NavFijo from './FijoNav'
-import PaginaInicio from './PaginaInicio'
+import logo from '../images/logoSS.png'
+// import PaginaInicio from './PaginaInicio'
 
 
 const NavBar = () => {
@@ -11,6 +12,7 @@ const NavBar = () => {
             <nav className="nav" id="navbar">
                 <div className="container">
                     <div className="logo">
+                        <img src={logo} alt="Logo de Purina" className="logo-img" />
                         <a href="#">Purina</a>
                     </div>
                     <div id="mainListDiv" className="main_list">

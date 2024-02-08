@@ -60,4 +60,11 @@
   height: 2px; /* Altura de la línea */
   background-color: #fff; /* Color de la línea */
 }
-
+.logo-img{
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 50px;
+  position: absolute;
+  top: 13px;
+  left: 10px;
+}

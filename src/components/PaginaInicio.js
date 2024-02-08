@@ -1,14 +1,12 @@
 import React from 'react'
 import './styles/PaginaInicio.css'
 import Switch from './switch'
-import logo from '../images/logoSS.png'
 
 function PaginaInicio () {
   return (
         <>
             <section className="forms-section">
                 <h1 className="section-title">Purina Ecuador</h1>
-                <img src={logo} alt="Logotipo Purina" />
                 <div className="forms">
                     <div className="form-wrapper is-active">
                         <button type="button" className="switcher switcher-login">
