@@ -5,16 +5,18 @@ import "./App.css";
 import PaginaInicio from "./components/PaginaInicio";
 import NavBar from "./components/NavBar";
 
+
 import { Route, Routes } from "react-router-dom";
 import BotonInicioo from "./components/BotonInicio";
+
 
 function App() {
   return (
     <div>
       <NavBar />
       <Routes>
-
-      <Route path="/login" element={<PaginaInicio />} />
+        <Route path="/login" element={<PaginaInicio />} />
+        
       </Routes>
     </div>
   );
