@@ -18,9 +18,8 @@ const NavBar = () => {
                     <div id="mainListDiv" className="main_list">
                         <ul className="navlinks">
                             <li><NavLink to ="/">Inicio</NavLink></li>
-                            <li><NavLink to ='/login'>Login</NavLink></li>
-                            <li><NavLink to ='/video-3d'>Video 3D</NavLink></li>
-                            <li><NavLink to ="#">Contactos</NavLink></li>
+                            <li><NavLink to ="/sitios">Sitios</NavLink></li>
+                            <li><NavLink to ='/login'>Ingresar</NavLink></li>
                         
                         </ul>
                     </div>

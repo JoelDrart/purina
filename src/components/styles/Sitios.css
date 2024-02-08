@@ -1,0 +1,70 @@
+/* Sitios.css */
+
+.sitios-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .sitios-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sitio-item {
+    width: 300px;
+    margin: 10px;
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #4b495f7e; /* Fondo semi-transparente */
+    backdrop-filter: blur(5px); /* Aplicar desenfoque al fondo */
+    overflow: hidden; /* Para evitar que el desenfoque se propague fuera de los bordes */
+  }
+  
+  .sitio-imagen {
+    width: 75%; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .sitio-info {
+    margin-top: 20px;
+  }
+  
+  .sitio-info h3 {
+    color: #fffffff8;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .sitio-info p {
+    margin: 0;
+    color: #a1a1a1;
+  }
+  
+  .boton {
+        background-color: #acadac; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+    } 
+  
+  .boton:hover {
+    background-color: #676867;
+    color: white;
+}
+a{
+    text-decoration: none;
+    } 

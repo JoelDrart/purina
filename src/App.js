@@ -7,8 +7,8 @@ import NavBar from "./components/NavBar";
 
 
 import { Route, Routes } from "react-router-dom";
-import BotonInicioo from "./components/BotonInicio";
 import PaginaVideo3D from "./components/PaginaVideo3D";
+import Sitios from "./components/Sitios";
 
 
 function App() {
@@ -16,11 +16,10 @@ function App() {
     <div>
       <NavBar />
       <div id="contenedor">
-
       <Routes>
       <Route path="/login" element={<PaginaInicio />} />
-      <Route path="/video-3d" element={<PaginaVideo3D />} />
-        
+      <Route path="/video-3d/:id" element={<PaginaVideo3D />} />
+      <Route path="/sitios" element={<Sitios />} />
       </Routes>
       </div>
     </div>
