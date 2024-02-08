@@ -1,0 +1,4 @@
+html.a-fullscreen .a-canvas {
+    top: 60px !important;
+    height: calc(100% - 60px) !important;
+}

@@ -8,15 +8,16 @@ import PaginaInicio from './PaginaInicio'
 const NavBar = () => {
     return (
         <>
-            <nav class="nav" id="navbar">
-                <div class="container">
-                    <div class="logo">
+            <nav className="nav" id="navbar">
+                <div className="container">
+                    <div className="logo">
                         <a href="#">Purina</a>
                     </div>
-                    <div id="mainListDiv" class="main_list">
-                        <ul class="navlinks">
+                    <div id="mainListDiv" className="main_list">
+                        <ul className="navlinks">
                             <li><NavLink to ="/">Inicio</NavLink></li>
                             <li><NavLink to ='/login'>Login</NavLink></li>
+                            <li><NavLink to ='/video-3d'>Video 3D</NavLink></li>
                             <li><NavLink to ="#">Contactos</NavLink></li>
                         
                         </ul>
