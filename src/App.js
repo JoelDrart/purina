@@ -9,6 +9,8 @@ import NavBar from "./components/NavBar";
 import { Route, Routes } from "react-router-dom";
 import PaginaVideo3D from "./components/PaginaVideo3D";
 import Sitios from "./components/Sitios";
+import Bienvenida from "./components/Bienvenida";
+
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Route path="/login" element={<PaginaInicio />} />
       <Route path="/video-3d/:id" element={<PaginaVideo3D />} />
       <Route path="/sitios" element={<Sitios />} />
+      <Route path="/" element={<Bienvenida />} />
+    
       </Routes>
       </div>
     </div>

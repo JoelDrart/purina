@@ -27,7 +27,9 @@
   text-decoration: none; /* Quita el subrayado del enlace */
   font-weight: bold; /* Peso de la fuente */
   font-size: 24px; /* Tamaño de las letras del logo */
+  margin-left: 30px;
 }
+
 
 .nav .navlinks {
   list-style-type: none; /* Quita los estilos de la lista */
@@ -41,7 +43,7 @@
 }
 
 .nav .navlinks li:last-child {
-  margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+  margin-right: 80px; /* Elimina el margen derecho del último elemento de la lista */
 }
 
 .nav .navlinks li a {
@@ -63,8 +65,7 @@
 .logo-img{
   width: 2.5em;
   height: 2.5em;
-  margin-right: 50px;
   position: absolute;
-  top: 13px;
-  left: 10px;
+  top: 0px;
+  margin-left: 100px;
 }

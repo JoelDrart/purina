@@ -6,6 +6,7 @@ function PaginaInicio () {
   return (
         <>
             <section className="forms-section">
+                <br></br>
                 <h1 className="section-title">Purina Ecuador</h1>
                 <div className="forms">
                     <div className="form-wrapper is-active">
